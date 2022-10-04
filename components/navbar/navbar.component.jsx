@@ -13,7 +13,7 @@ const Navbar = () => {
 			</ul>
 			<div className={styles.btns}>
 				<a href="/signin">Sign In</a>
-				<a className={styles.register} href="/register">
+				<a className={styles.registerBtn} href="/register">
 					Register
 				</a>
 			</div>
