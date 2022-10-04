@@ -1,0 +1,44 @@
+.hiwContainer {
+	width: 1158.48px;
+	height: 370.3px;
+	margin: 0 auto;
+}
+
+.hiwheading {
+	font-size: 48px;
+	font-weight: bold;
+	line-height: 64px;
+	text-align: center;
+	color: #333333;
+	margin: 0 auto 30px;
+}
+
+.hiwCards {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.hiwCard {
+	width: 260px;
+}
+
+.hiwCard img {
+	width: 100%;
+}
+
+.hiwCardHeading {
+	font-size: 23px;
+	font-weight: semi-bold;
+	line-height: 30.4px;
+	letter-spacing: 0.06 px;
+	color: #6149cd;
+	margin: 15px auto;
+}
+.hiwCardPara {
+	font-size: 10px;
+	font-weight: medium;
+	line-height: 15.2px;
+	color: #676c86;
+	width: 80%;
+}

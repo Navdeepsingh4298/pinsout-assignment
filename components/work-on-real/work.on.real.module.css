@@ -1,0 +1,47 @@
+.worContainer {
+	width: 80%;
+	display: flex;
+	margin: 70px auto;
+}
+
+.worTextContainer {
+	width: 600px;
+}
+
+.worTextContainerHeading {
+	font-size: 48px;
+	font-weight: normal;
+	line-height: 64px;
+	letter-spacing: 0.13px;
+	text-align: left;
+	color: #23272b;
+}
+
+.worTextContainerPara {
+	font-size: 18px;
+	font-weight: medium;
+	line-height: 32px;
+	text-align: left;
+	color: #676c86;
+	margin: 30px auto;
+}
+
+.worTextContainerBtn {
+	width: 230px;
+	height: 64px;
+	color: #fff;
+	background-color: #6149cd;
+	border-radius: 10px;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	font-size: 18px;
+	font-weight: semi-bold;
+	cursor: pointer;
+}
+
+.worImageContainer {
+	object-fit: cover;
+	border-radius: 15px;
+}
