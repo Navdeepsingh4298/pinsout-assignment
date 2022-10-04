@@ -1,0 +1,88 @@
+.projectsContainer {
+	width: 80%;
+	margin: 100px auto;
+}
+
+.projectsHeader {
+	position: relative;
+}
+
+.projectsContainerHeading {
+	font-size: 37px;
+	font-weight: bold;
+	color: #0a1629;
+}
+
+.projectsContainerPara {
+	font-size: 17px;
+	font-weight: normal;
+	color: #7a86a1;
+	margin-top: 20px;
+}
+
+.allCatBtn {
+	width: 135.25px;
+	height: 44.92px;
+	font-size: 17px;
+	font-weight: bold;
+	color: #7a86a1;
+	background-color: #fff;
+	border: 1px solid #6149cd05;
+	position: absolute;
+	right: 0;
+	top: 10px;
+	cursor: pointer;
+}
+
+.projectCardsContainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 50px;
+}
+
+.projectCardPurple {
+	border-radius: 9.96px;
+	width: 230.64px;
+	height: 144.28px;
+	padding: 40px;
+	margin-bottom: 40px;
+	cursor: pointer;
+	background-color: #6149cd;
+}
+
+.projectCardWhite {
+	border-radius: 9.96px;
+	width: 230.64px;
+	height: 144.28px;
+	padding: 40px;
+	margin-bottom: 40px;
+	border: 3.32px solid #6149cd05;
+	cursor: pointer;
+	background-color: #fff;
+}
+
+.projectCardPurpleHeading {
+	color: #ebebeb;
+	font-weight: bold;
+	font-size: 18.81px;
+}
+
+.projectCardPurplePara {
+	color: #ebebeb;
+	font-size: 16.6px;
+	margin-top: 10px;
+}
+
+.projectCardWhiteHeading {
+	color: #0a1629;
+	font-weight: bold;
+	font-size: 18.81px;
+}
+
+.projectCardWhitePara {
+	color: #7a86a1;
+	font-size: 16.6px;
+	margin-top: 10px;
+}
