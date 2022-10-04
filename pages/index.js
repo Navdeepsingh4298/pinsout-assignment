@@ -10,6 +10,7 @@ import Projects from "../components/projects/projects.component";
 
 // StyleSheet
 import styles from "../styles/Home.module.css";
+import Internships from "../components/internships/internships.component";
 
 export default function Home() {
 	return (
@@ -26,6 +27,7 @@ export default function Home() {
 			<WorkOnRealComp />
 			<TargetAudience />
 			<Projects />
+			<Internships />
 		</div>
 	);
 }
