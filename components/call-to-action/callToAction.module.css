@@ -1,0 +1,28 @@
+.ctaContainer {
+	width: 1000px;
+	height: 113.2px;
+	margin: 0 auto;
+	position: relative;
+	top: -50px;
+	z-index: 1;
+	border-radius: 9px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	background-color: #fff;
+}
+
+.ctaCard {
+	width: 303.13px;
+	height: 77.6px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+	background-color: #6149cd10;
+}
+
+.ctaCard p {
+	color: #0a1629;
+	margin-left: 15px;
+}
