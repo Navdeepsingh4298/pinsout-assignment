@@ -13,6 +13,7 @@ import Projects from "../components/projects/projects.component";
 import Internships from "../components/internships/internships.component";
 import Jobs from "../components/jobs/jobs.component";
 import Testimonial from "../components/testimonial/testimonial.component";
+import Partners from "../components/partners/partners.components";
 
 export default function Home() {
 	return (
@@ -38,6 +39,7 @@ export default function Home() {
 			<Internships />
 			<Jobs />
 			<Testimonial />
+			<Partners />
 		</div>
 	);
 }

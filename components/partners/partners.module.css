@@ -1,0 +1,30 @@
+.pContainer {
+	width: 55%;
+	margin: 20px auto 100px;
+}
+
+.pContainerHeader {
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.pContainerHeading {
+	color: #0a1629;
+	font-size: 37px;
+	font-weight: 700;
+}
+
+.pContainerPara {
+	color: #7a86a1;
+	font-size: 17px;
+	margin-top: 20px;
+}
+
+.pContainerFooter {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 60px;
+}
