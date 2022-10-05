@@ -12,6 +12,7 @@ import TargetAudience from "../components/target-audience/target.audience.compon
 import Projects from "../components/projects/projects.component";
 import Internships from "../components/internships/internships.component";
 import Jobs from "../components/jobs/jobs.component";
+import Testimonial from "../components/testimonial/testimonial.component";
 
 export default function Home() {
 	return (
@@ -20,6 +21,12 @@ export default function Home() {
 				<title>Qollabb</title>
 				<meta name="description" content="Pinsout Assignment" />
 				<link rel="icon" href="/favicon.ico" />
+				<link rel="preconnect" href="https://fonts.googleapis.com" />
+				<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+				<link
+					href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600&display=swap"
+					rel="stylesheet"
+				/>
 			</Head>
 
 			<Header />
@@ -30,6 +37,7 @@ export default function Home() {
 			<Projects />
 			<Internships />
 			<Jobs />
+			<Testimonial />
 		</div>
 	);
 }
