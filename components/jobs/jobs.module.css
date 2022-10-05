@@ -1,7 +1,7 @@
 .jContainer {
 	width: 80%;
 	background-color: #ebeff7;
-	padding: 100px 200px;
+	padding: 100px;
 	margin: 0 auto 100px;
 }
 
@@ -37,10 +37,9 @@
 
 .jCardsContainer {
 	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	flex-wrap: wrap;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-items: center;
 	margin-top: 40px;
 }
 

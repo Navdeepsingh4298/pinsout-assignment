@@ -6,7 +6,9 @@ const Internships = () => {
 	return (
 		<div className={styles.iContainer}>
 			<div className={styles.iHeaderContainer}>
-				<h3 className={styles.iContainerHeading}>Explore Industry Projects</h3>
+				<h3 className={styles.iContainerHeading}>
+					Internships by top employers
+				</h3>
 				<p className={styles.iContainerPara}>
 					Lorem ipsum dolor sit amet. consectetur
 				</p>
