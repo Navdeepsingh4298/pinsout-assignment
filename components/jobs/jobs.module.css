@@ -1,0 +1,133 @@
+.jContainer {
+	width: 80%;
+	background-color: #ebeff7;
+	padding: 100px 200px;
+	margin: 0 auto 100px;
+}
+
+.jHeaderContainer {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.jContainerHeading {
+	color: #0a1629;
+	font-size: 37px;
+	font-weight: bold;
+}
+
+.jContainerPara {
+	color: #7a86a1;
+	font-size: 17px;
+	margin-top: 20px;
+}
+
+.alljBtn {
+	width: 172.22px;
+	height: 44.92px;
+	color: #6149cd;
+	font-weight: bold;
+	background-color: #fff;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	border: 1px solid #6149cd05;
+}
+
+.jCardsContainer {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 40px;
+}
+
+.jCard {
+	width: 304.55px;
+	height: 323.8px;
+	padding: 30px;
+	margin-bottom: 40px;
+	position: relative;
+	color: #7a86a1;
+	background-color: #fff;
+	border-radius: 6.93px;
+	border: 0.41px solid #7a86a150;
+}
+
+.jCardHead {
+	padding-right: 15px;
+	border-right: 1px solid #7a86a1;
+	position: absolute;
+	top: 32px;
+	left: 85px;
+}
+
+.jCardLogoHeading {
+	font-size: 17px;
+	font-weight: 500;
+	color: #0a1629;
+}
+
+.jCardTextLoc {
+	font-size: 11px;
+	margin: 5px auto;
+	color: #7a86a1;
+}
+
+.jCardTextPrice {
+	color: #0a1629;
+	font-size: 17px;
+	font-weight: 600;
+	position: absolute;
+	top: 40px;
+	right: 70px;
+}
+
+.jCardTextDuration {
+	color: #7a86a1;
+	font-size: 17px;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+
+.jCardHeading {
+	font-size: 17px;
+	font-weight: 500;
+	color: #0a1629;
+	margin-top: 20px;
+}
+
+.jCardBody {
+	color: #7a86a1;
+	font-size: 17px;
+	font-weight: 500;
+	margin-top: 10px;
+}
+
+.jCardTextTime {
+	margin-left: 30px;
+}
+
+.jCardDesc {
+	font-size: 17px;
+	font-weight: 400;
+	text-align: left;
+	margin-top: 25px;
+}
+
+.jCardApplyBtn {
+	width: 105.73px;
+	height: 38.51px;
+	color: #6149cd;
+	background-color: #6149cd05;
+	border: none;
+	font-size: 14px;
+	font-weight: medium;
+	position: absolute;
+	bottom: 30px;
+	left: 20px;
+	cursor: pointer;
+}

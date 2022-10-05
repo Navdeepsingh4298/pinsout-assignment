@@ -1,5 +1,8 @@
 import Head from "next/head";
 
+// StyleSheet
+import styles from "../styles/Home.module.css";
+
 // Components
 import Header from "../components/header/header.component";
 import CallToAction from "../components/call-to-action/callToAction.component";
@@ -7,10 +10,8 @@ import HowItWorks from "../components/how-it-works/how.it.works.component";
 import WorkOnRealComp from "../components/work-on-real/work.on.real.component";
 import TargetAudience from "../components/target-audience/target.audience.component";
 import Projects from "../components/projects/projects.component";
-
-// StyleSheet
-import styles from "../styles/Home.module.css";
 import Internships from "../components/internships/internships.component";
+import Jobs from "../components/jobs/jobs.component";
 
 export default function Home() {
 	return (
@@ -28,6 +29,7 @@ export default function Home() {
 			<TargetAudience />
 			<Projects />
 			<Internships />
+			<Jobs />
 		</div>
 	);
 }
