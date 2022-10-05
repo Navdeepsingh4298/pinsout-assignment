@@ -2,7 +2,7 @@
 	width: 80%;
 	background-color: #ebeff7;
 	padding: 100px 200px;
-	margin: 100px auto;
+	margin: 100px auto 0;
 }
 
 .iHeaderContainer {
@@ -27,6 +27,7 @@
 	width: 172.22px;
 	height: 44.92px;
 	color: #6149cd;
+	font-weight: bold;
 	background-color: #fff;
 	position: absolute;
 	right: 10px;
