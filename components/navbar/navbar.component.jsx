@@ -4,7 +4,7 @@ import styles from "./navbar.module.css";
 const Navbar = () => {
 	return (
 		<div className={styles.navbarContainer}>
-			<Image src="/logo.png" alt="logo" width={133.71} height={64.99} />
+			<Image src="/logo-white.png" alt="logo" width={133.71} height={64.99} />
 			<ul className={styles.navlist}>
 				<li>Companies</li>
 				<li>Students</li>
