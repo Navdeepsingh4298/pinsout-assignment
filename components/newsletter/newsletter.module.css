@@ -1,0 +1,50 @@
+.nContainer {
+	width: 80%;
+	height: 484.23px;
+	margin: 0 auto;
+	background-image: url("/newsletter-bg.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.nContainerHeading {
+	font-size: 37px;
+	font-weight: 700;
+	color: #0a1629;
+}
+
+.nContainerDesc {
+	width: 40%;
+	color: #7a86a1;
+	font-size: 17px;
+	font-weight: 400;
+	margin: 20px auto 40px;
+}
+
+.nContainerInput {
+	display: flex;
+}
+
+.nContainerInputEmail {
+	width: 20rem;
+	height: 50px;
+	border-radius: 6px 0 0 6px;
+	border: 1px solid #e1e1e1;
+	outline: none;
+}
+
+.nContainerSubmitBtn {
+	height: 50px;
+	font-size: 13px;
+	color: #fff;
+	background-color: #6149cd;
+	border-radius: 0 6px 6px 0;
+	padding: 20px;
+	border: none;
+	display: flex;
+	align-items: center;
+}
