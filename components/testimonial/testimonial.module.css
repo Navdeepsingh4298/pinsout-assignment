@@ -1,0 +1,82 @@
+.tContainer {
+	width: 60%;
+	margin: 0 auto 100px;
+}
+
+.tContainerHeader {
+	width: 100%;
+}
+
+.tContainerHead {
+	width: 100%;
+	padding: 10px;
+}
+
+.tContainerHeading {
+	font-size: 37px;
+	font-weight: 700;
+	color: #0a1629;
+}
+
+.tContainerHeadingLogo {
+	color: #6149cd;
+}
+
+.tContainerHeadingDesc {
+	color: #7a86a1;
+	font-size: 17px;
+	margin-top: 20px;
+}
+
+.tContainerStudents {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin: 30px auto;
+}
+
+.tContainerStudentDisabled {
+	width: 25%;
+	opacity: 0.5;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.tContainerStudent {
+	width: 25%;
+	opacity: 1;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.tContainerStudentName {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.tContainerStudentRole {
+	color: #7a86a1;
+	font-size: 13px;
+}
+
+.tContainerFooter {
+	width: 100%;
+	background-color: #6149cd;
+	border-radius: 13px;
+	padding: 40px;
+	margin-top: 40px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.tContainerFooterPara {
+	width: 70%;
+	font-size: 22px;
+	font-weight: 600;
+	color: #fff;
+	text-align: center;
+	margin: 40px auto 20px;
+}
