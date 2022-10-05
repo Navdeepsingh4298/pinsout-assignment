@@ -82,7 +82,13 @@ const Footer = () => {
 			</div>
 			<div className={styles.fContainerLower}>
 				Copyright@Qollabb 2022, All right Reserved{" "}
-				<a href="https://navdev.ml">Made by Navdeep Singh</a>
+				<a
+					href="https://www.navdev.ml"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					Made by Navdeep Singh
+				</a>
 			</div>
 		</div>
 	);
