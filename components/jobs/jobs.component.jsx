@@ -15,18 +15,33 @@ const Jobs = () => {
 
 			<div className={styles.jCardsContainer}>
 				<div className={styles.jCard}>
-					<Image
-						src="/netflix.png"
-						alt="netflixicon"
-						width={44.37}
-						height={44.37}
-					/>
 					<div className={styles.jCardHead}>
-						<h3 className={styles.jCardLogoHeading}>Netflix</h3>
-						<p className={styles.jCardTextLoc}>Noida, UP, India</p>
+						<Image
+							src="/netflix.png"
+							alt="netflixicon"
+							width={44.37}
+							height={44.37}
+						/>
+
+						<div
+							style={{
+								padding: "0px 10px",
+								borderRight: "1px solid #7a86a1",
+								marginRight: "10px",
+							}}
+						>
+							<h3 className={styles.jCardLogoHeading}>Netflix</h3>
+							<p className={styles.jCardTextLoc}>Noida, UP, India</p>
+						</div>
+						<div
+							style={{
+								display: "flex",
+							}}
+						>
+							<p className={styles.jCardTextPrice}>&#8377; 14k</p>
+							<p className={styles.jCardTextDuration}>/month</p>
+						</div>
 					</div>
-					<span className={styles.jCardTextPrice}>&#8377; 14k</span>
-					<span className={styles.jCardTextDuration}>/month</span>
 					<h3 className={styles.jCardHeading}>Product Designer</h3>
 					<div className={styles.jCardBody}>
 						<p>
@@ -41,18 +56,33 @@ const Jobs = () => {
 					<Btn title="Apply Now" styles={styles.jCardApplyBtn} />
 				</div>
 				<div className={styles.jCard}>
-					<Image
-						src="/netflix.png"
-						alt="netflixicon"
-						width={44.37}
-						height={44.37}
-					/>
 					<div className={styles.jCardHead}>
-						<h3 className={styles.jCardLogoHeading}>Netflix</h3>
-						<p className={styles.jCardTextLoc}>Noida, UP, India</p>
+						<Image
+							src="/netflix.png"
+							alt="netflixicon"
+							width={44.37}
+							height={44.37}
+						/>
+
+						<div
+							style={{
+								padding: "0px 10px",
+								borderRight: "1px solid #7a86a1",
+								marginRight: "10px",
+							}}
+						>
+							<h3 className={styles.jCardLogoHeading}>Netflix</h3>
+							<p className={styles.jCardTextLoc}>Noida, UP, India</p>
+						</div>
+						<div
+							style={{
+								display: "flex",
+							}}
+						>
+							<p className={styles.jCardTextPrice}>&#8377; 14k</p>
+							<p className={styles.jCardTextDuration}>/month</p>
+						</div>
 					</div>
-					<span className={styles.jCardTextPrice}>&#8377; 14k</span>
-					<span className={styles.jCardTextDuration}>/month</span>
 					<h3 className={styles.jCardHeading}>Product Designer</h3>
 					<div className={styles.jCardBody}>
 						<p>
@@ -67,18 +97,33 @@ const Jobs = () => {
 					<Btn title="Apply Now" styles={styles.jCardApplyBtn} />
 				</div>
 				<div className={styles.jCard}>
-					<Image
-						src="/netflix.png"
-						alt="netflixicon"
-						width={44.37}
-						height={44.37}
-					/>
 					<div className={styles.jCardHead}>
-						<h3 className={styles.jCardLogoHeading}>Netflix</h3>
-						<p className={styles.jCardTextLoc}>Noida, UP, India</p>
+						<Image
+							src="/netflix.png"
+							alt="netflixicon"
+							width={44.37}
+							height={44.37}
+						/>
+
+						<div
+							style={{
+								padding: "0px 10px",
+								borderRight: "1px solid #7a86a1",
+								marginRight: "10px",
+							}}
+						>
+							<h3 className={styles.jCardLogoHeading}>Netflix</h3>
+							<p className={styles.jCardTextLoc}>Noida, UP, India</p>
+						</div>
+						<div
+							style={{
+								display: "flex",
+							}}
+						>
+							<p className={styles.jCardTextPrice}>&#8377; 14k</p>
+							<p className={styles.jCardTextDuration}>/month</p>
+						</div>
 					</div>
-					<span className={styles.jCardTextPrice}>&#8377; 14k</span>
-					<span className={styles.jCardTextDuration}>/month</span>
 					<h3 className={styles.jCardHeading}>Product Designer</h3>
 					<div className={styles.jCardBody}>
 						<p>
@@ -93,18 +138,33 @@ const Jobs = () => {
 					<Btn title="Apply Now" styles={styles.jCardApplyBtn} />
 				</div>
 				<div className={styles.jCard}>
-					<Image
-						src="/netflix.png"
-						alt="netflixicon"
-						width={44.37}
-						height={44.37}
-					/>
 					<div className={styles.jCardHead}>
-						<h3 className={styles.jCardLogoHeading}>Netflix</h3>
-						<p className={styles.jCardTextLoc}>Noida, UP, India</p>
+						<Image
+							src="/netflix.png"
+							alt="netflixicon"
+							width={44.37}
+							height={44.37}
+						/>
+
+						<div
+							style={{
+								padding: "0px 10px",
+								borderRight: "1px solid #7a86a1",
+								marginRight: "10px",
+							}}
+						>
+							<h3 className={styles.jCardLogoHeading}>Netflix</h3>
+							<p className={styles.jCardTextLoc}>Noida, UP, India</p>
+						</div>
+						<div
+							style={{
+								display: "flex",
+							}}
+						>
+							<p className={styles.jCardTextPrice}>&#8377; 14k</p>
+							<p className={styles.jCardTextDuration}>/month</p>
+						</div>
 					</div>
-					<span className={styles.jCardTextPrice}>&#8377; 14k</span>
-					<span className={styles.jCardTextDuration}>/month</span>
 					<h3 className={styles.jCardHeading}>Product Designer</h3>
 					<div className={styles.jCardBody}>
 						<p>
@@ -119,18 +179,33 @@ const Jobs = () => {
 					<Btn title="Apply Now" styles={styles.jCardApplyBtn} />
 				</div>
 				<div className={styles.jCard}>
-					<Image
-						src="/netflix.png"
-						alt="netflixicon"
-						width={44.37}
-						height={44.37}
-					/>
 					<div className={styles.jCardHead}>
-						<h3 className={styles.jCardLogoHeading}>Netflix</h3>
-						<p className={styles.jCardTextLoc}>Noida, UP, India</p>
+						<Image
+							src="/netflix.png"
+							alt="netflixicon"
+							width={44.37}
+							height={44.37}
+						/>
+
+						<div
+							style={{
+								padding: "0px 10px",
+								borderRight: "1px solid #7a86a1",
+								marginRight: "10px",
+							}}
+						>
+							<h3 className={styles.jCardLogoHeading}>Netflix</h3>
+							<p className={styles.jCardTextLoc}>Noida, UP, India</p>
+						</div>
+						<div
+							style={{
+								display: "flex",
+							}}
+						>
+							<p className={styles.jCardTextPrice}>&#8377; 14k</p>
+							<p className={styles.jCardTextDuration}>/month</p>
+						</div>
 					</div>
-					<span className={styles.jCardTextPrice}>&#8377; 14k</span>
-					<span className={styles.jCardTextDuration}>/month</span>
 					<h3 className={styles.jCardHeading}>Product Designer</h3>
 					<div className={styles.jCardBody}>
 						<p>
@@ -145,18 +220,33 @@ const Jobs = () => {
 					<Btn title="Apply Now" styles={styles.jCardApplyBtn} />
 				</div>
 				<div className={styles.jCard}>
-					<Image
-						src="/netflix.png"
-						alt="netflixicon"
-						width={44.37}
-						height={44.37}
-					/>
 					<div className={styles.jCardHead}>
-						<h3 className={styles.jCardLogoHeading}>Netflix</h3>
-						<p className={styles.jCardTextLoc}>Noida, UP, India</p>
+						<Image
+							src="/netflix.png"
+							alt="netflixicon"
+							width={44.37}
+							height={44.37}
+						/>
+
+						<div
+							style={{
+								padding: "0px 10px",
+								borderRight: "1px solid #7a86a1",
+								marginRight: "10px",
+							}}
+						>
+							<h3 className={styles.jCardLogoHeading}>Netflix</h3>
+							<p className={styles.jCardTextLoc}>Noida, UP, India</p>
+						</div>
+						<div
+							style={{
+								display: "flex",
+							}}
+						>
+							<p className={styles.jCardTextPrice}>&#8377; 14k</p>
+							<p className={styles.jCardTextDuration}>/month</p>
+						</div>
 					</div>
-					<span className={styles.jCardTextPrice}>&#8377; 14k</span>
-					<span className={styles.jCardTextDuration}>/month</span>
 					<h3 className={styles.jCardHeading}>Product Designer</h3>
 					<div className={styles.jCardBody}>
 						<p>

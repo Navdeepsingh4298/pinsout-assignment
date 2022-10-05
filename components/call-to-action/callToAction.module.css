@@ -1,5 +1,5 @@
 .ctaContainer {
-	width: 1000px;
+	width: 60%;
 	height: 113.2px;
 	margin: 0 auto;
 	position: relative;
@@ -14,7 +14,7 @@
 }
 
 .ctaCard {
-	width: 303.13px;
+	width: 30%;
 	height: 77.6px;
 	display: flex;
 	align-items: center;
@@ -25,5 +25,6 @@
 
 .ctaCard p {
 	color: #0a1629;
+	font-size: 24px;
 	margin-left: 15px;
 }
