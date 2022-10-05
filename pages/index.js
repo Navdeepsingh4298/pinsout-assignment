@@ -15,6 +15,7 @@ import Jobs from "../components/jobs/jobs.component";
 import Testimonial from "../components/testimonial/testimonial.component";
 import Partners from "../components/partners/partners.components";
 import NewsLetter from "../components/newsletter/newsletter.component";
+import Footer from "../components/footer/footer.component";
 
 export default function Home() {
 	return (
@@ -42,6 +43,7 @@ export default function Home() {
 			<Testimonial />
 			<Partners />
 			<NewsLetter />
+			<Footer />
 		</div>
 	);
 }
